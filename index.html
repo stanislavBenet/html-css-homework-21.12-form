@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML & CSS</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
-  <body>
-  
-  </body>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>HTML & CSS</title>
+      <link rel="stylesheet" href="./assets/css/style.css" />
+   </head>
+   <body>
+      <div class="section-wrapper">
+         <section class="section">
+            <h1 class="section__header">Register</h1>
+            <p>Create your account. It`s free and only takes a minute.</p>
+            <form class="section__form" action="" method="get">
+               <label>
+                  <input
+                     type="text"
+                     name="First Name"
+                     id="First Name"
+                     placeholder="First Name"
+                     required
+                  />
+                  <input
+                     type="text"
+                     name="Last Name"
+                     id="Last Name"
+                     placeholder="Last Name"
+                     required
+                  />
+               </label>
+               <input type="email" name="email" id="email" placeholder="Email" required />
+               <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Password"
+                  required
+               />
+               <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Confirm Password"
+                  required
+               />
+               <label class="checkbox-font">
+                  <input type="checkbox" name="agree" id="agree" required /> I accept the
+                  <a href=""> Terms of Use</a> & <a href="">Privacy Policy</a>
+               </label>
+               <input type="submit" value="Register Now" />
+            </form>
+         </section>
+         <p>Alreade have an account? <a href="" target="_blank">Sign in</a></p>
+      </div>
+   </body>
 </html>
