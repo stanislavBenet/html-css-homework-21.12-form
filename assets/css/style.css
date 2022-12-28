@@ -66,24 +66,24 @@ form > input:last-child {
    width: 90%;
    display: block;
    margin: 20px auto;
-   padding: 10px;
+   padding: 0.4em;
 }
 
-form label:first-child {
+.containForFullName {
    display: flex;
    flex-direction: row;
    justify-content: space-around;
    margin: 0 auto;
 }
 
-form label:first-child > input {
+.containForFullName > input {
    width: 40%;
    margin: 10px 0 3px 0;
-   padding: 10px;
+   padding: 0.4em;
 }
 
 ::placeholder {
-   padding: 10px;
+   padding: 0.4em;
 }
 
 form > input:last-child {
